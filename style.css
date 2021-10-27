@@ -1,0 +1,77 @@
+/*
+This styling assumes it will be viewed on a 1920x1080p monitor.
+*/
+
+html {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: white;
+}
+body {
+    background: #12141d;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    max-width: 700px;
+}
+h1{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+h3{
+    font-family: sans-serif;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-size: 16px;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+.loader{
+    height: 100px;
+    position: relative;
+    top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img:hover{
+    cursor: pointer;
+}
+.next, .previous{
+    padding-top: 0 10px 0 10px;
+    margin-left:14px;
+    margin-right: 14px;
+}
+.list{
+    font-size: 24px;
+    border-radius: 12px;
+    list-style: none;
+    padding: 20px;
+}
+.list > li{
+    line-height: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+.list > li:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.details-group{
+    padding-left: 8.5rem;
+    padding-top: 24px;
+}
+.details{
+    display: inline-block;
+    padding-left: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
